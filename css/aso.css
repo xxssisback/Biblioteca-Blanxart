@@ -1,0 +1,350 @@
+body{ font: 14px sans-serif; }
+.wrapper{ width: 350px; padding: 20px; }
+
+body {
+    background-image: url("../img/wallpaper.jpg");
+	font-family: sans-serif;
+    overflow: auto;
+    color: #000000;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+   }
+
+   .recuadro_menu {
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 0px 0px 0px 7px;
+    border-color: #239cffa7;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
+    transition: background 0.5s, border 0.5s, border-radius 0.5s, box-shadow 0.5s;
+    box-sizing: border-box;
+    left: 100px;
+    top: 200px;
+    align-content: center!important;
+    width: 100%;
+    max-width: 430px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+a {
+    color: #028802;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #cfcfcf;
+    text-decoration: none;
+}
+
+.links {
+    text-align-last: center;
+    padding-top: 10px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.button-block {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+.button {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #825700;
+    background: linear-gradient(#f39f14,#947104);
+    border: 1px solid #ad6f18;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 30px;
+    padding: 4px 15px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.as-tradeupinline-button {
+    z-index: 1;
+}
+
+h1 {
+    color: rgb(163, 163, 163);
+    text-align: center;
+    font-size: 45px;
+}
+
+hr {
+    border-top: 1px solid #3b3b3b;
+}
+
+label {
+    color: #9c9c9c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nou-usuari{
+    font-size: 32px;
+}
+
+.form-textbox {
+    font-size: 17px;
+    line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 100%;
+    height: 2.3em;
+    padding-left: .94118rem;
+    padding-right: .94118rem;
+    color: #6a7b8a;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: #fffc;
+}
+
+.form-textbox-petit{
+    font-size: 17px;
+    line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 100%;
+    height: 2.3em;
+    padding-left: .94118rem;
+    padding-right: .94118rem;
+    color: #6a7b8a;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: #fffc;
+}
+
+.button-block-petit {
+    box-sizing: border-box;
+    width: 40%;
+}
+
+.button-white {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #c9cbcc;
+    background: linear-gradient(#e9e9e9,#c0c0c0);
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 4px;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+    display: inline-block;
+    min-width: 30px;
+    padding: 4px 15px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+table {
+    color: #484848;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    border-top: 0px solid #fff;
+    vertical-align: inherit;
+    border: solid 1px #fff;
+    color: #8e8e8e;
+}
+
+
+.recuadro_lista {
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 0px 0px 0px 7px;
+    border-color: #239cffa7;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
+    transition: background 0.5s, border 0.5s, border-radius 0.5s, box-shadow 0.5s;
+    box-sizing: border-box; 
+    left: 100px;
+    top: 200px;
+    align-content: center!important;
+    width: 100%;
+    max-width: 1380px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.recuadro_lista_filtre {
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 0px 0px 0px 7px;
+    border-color: #239cffa7;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
+    transition: background 0.5s, border 0.5s, border-radius 0.5s, box-shadow 0.5s;
+    box-sizing: border-box; 
+    left: 100px;
+    top: 200px;
+    align-content: center!important;
+    width: 100%;
+    max-width: 1380px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: -60px;
+    text-align: -webkit-center;
+}
+
+.button-block-editar {
+    box-sizing: border-box;
+    width: 48%;
+}
+
+.button-block-eliminar {
+    box-sizing: border-box;
+    width: 49%;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #b90000;
+    background: linear-gradient(#f50000,#b60000);
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    min-width: 30px;
+    padding: 4px 15px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.button-block-aceptar {
+    box-sizing: border-box;
+    width: 40%;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #00b972;
+    background: linear-gradient(#00f566,#00b66a);
+    border: 1px solid rgb(0, 255, 98);
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    min-width: 30px;
+    padding: 4px 15px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.button-block-info {
+    box-sizing: border-box;
+    width: 40%;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #0075b9;
+    background: linear-gradient(#0056f5,#004fb6);
+    border: 1px solid rgb(0, 81, 255);
+    border-radius: 4px;
+    color: rgb(241 241 255 / 89%);
+    cursor: pointer;
+    display: inline-block;
+    min-width: 30px;
+    padding: 4px 15px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.recuadro_lista_petit {
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 0px 0px 0px 7px;
+    border-color: #239cffa7;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
+    transition: background 0.5s, border 0.5s, border-radius 0.5s, box-shadow 0.5s;
+    box-sizing: border-box;
+    left: 100px;
+    top: 200px;
+    align-content: center!important;
+    width: 100%;
+    max-width: 550px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 100px;
+    overflow: auto;
+    max-height: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+body::-webkit-scrollbar {
+    background-color: #fff;
+    width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color:#ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #ffffff;
+}
+
+body::-webkit-scrollbar-button {
+    display:none;
+}
+
+.recuadro_lista_petit::-webkit-scrollbar {
+    background-color: #fff;
+    width: 16px;
+}
+
+.recuadro_lista_petit::-webkit-scrollbar-track {
+    background-color:#fff;
+}
+
+.recuadro_lista_petit::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #fff;
+}
+
+.recuadro_lista_petit::-webkit-scrollbar-button {
+    display:none;
+}
